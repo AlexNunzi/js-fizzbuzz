@@ -13,7 +13,7 @@ for(let i=1; i <=100; i++){
     if(i % 3 == 0 && i % 5 == 0){
         console.log(`${i} è divisibile per entrambi FizzBuzz`);
         bgColor = 'bg-red';
-        elementData = 'FrizzBuzz';
+        elementData = 'FizzBuzz';
     } else if(i % 5 == 0){
         console.log(`${i} é divisibile per 5 Buzz`);
         bgColor = 'bg-yellow';
@@ -21,7 +21,7 @@ for(let i=1; i <=100; i++){
     } else if (i % 3 == 0){
         console.log(`${i} è divisibile per 3 Fizz`);
         bgColor = 'bg-lightGreen';
-        elementData = 'Frizz';
+        elementData = 'Fizz';
     } else {
         console.log(i);
         bgColor = 'bg-lightBlue';
